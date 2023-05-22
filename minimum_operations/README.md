@@ -1,0 +1,1 @@
+Starting on minimum operations
