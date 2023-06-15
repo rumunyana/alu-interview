@@ -3,6 +3,7 @@
 Rain
 """
 
+
 def rain(walls):
     """
     Calculates how many square units of water will be retained after it rains.
@@ -12,7 +13,6 @@ def rain(walls):
 
     Returns:
         int: The total amount of rainwater retained.
-
     """
     if not walls or len(walls) < 3:
         return 0
@@ -31,4 +31,5 @@ def rain(walls):
         water += min(left, right) - walls[i]
 
     return water
+
 
