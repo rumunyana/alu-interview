@@ -32,4 +32,3 @@ def rain(walls):
 
     return water
 
-
